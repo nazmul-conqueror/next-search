@@ -34,6 +34,15 @@ const Navlinks = () => {
           About
         </Link>
       </li>
+
+      <li>
+        <Link
+          className={pathname === "/route" ? "underline bg-blue-200 px-2 py-1 rounded" : ""}
+          href="/route"
+        >
+          Route
+        </Link>
+      </li>
     </>
   );
 };
